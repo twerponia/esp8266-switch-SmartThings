@@ -1,4 +1,5 @@
 
+
 # esp8266-switch-SmartThings
 I wanted to write a simple SmartThings device handler for a ESP8266 NodeMCU based switch.  I am not a developer and when I look at the many code examples available, I often have trouble figuring what the essential part the code are.
 
@@ -26,9 +27,13 @@ cd C:\Users\your_user_name\Desktop\nodeHubsimulator
 Install the necessary packages by typing in sequence
 
 npm install express --save
+
 npm install cors --save
+
 npm install body-parser --save
+
 npm install unirest --save
+
 
 Then start the server.
 node server.js
