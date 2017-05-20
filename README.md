@@ -1,5 +1,6 @@
 
 
+
 # esp8266-switch-SmartThings
 I wanted to write a simple SmartThings device handler for a ESP8266 NodeMCU based switch.  I am not a developer and when I look at the many code examples available, I often have trouble figuring what the essential part the code are.
 
@@ -11,7 +12,7 @@ The portion of the Arduino code that turns on/off the LED can be modified to tur
 
 
 I only recently learned about node.js, because I wanted to write an Amazon Alexa skill, so that Alexa would tell me the temperature and humidity inside and outside of my house.
-So to become more familiar with node.js, I tried to write a node.js server node-js server running on my computer, that simulates the action of the SmartThings App and Hub for the ESP8266 NodeMCU smartswitch.
+So, to become more familiar with node.js, I tried to write a node.js server node-js server running on my computer, that simulates the action of the SmartThings App and Hub for the ESP8266 NodeMCU smartswitch.
 If you want to try it, download the folder nodeHubsimulator to your computer.  
 In the file server.js change the line 
 unirest.post('http://192.168.1.60:9070/on??')
