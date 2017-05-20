@@ -6,10 +6,12 @@ I wanted to write a simple SmartThings device handler for a ESP8266 NodeMCU base
 So I tried to write the most basic handler, that can turn on the LED  on the EPS8266 NodeMCU using the Smartthings App on my phone and therefore also Amazon Echo.  I mostly used code from Charles Schwer (cannot find anymore) and Daniel Ogorchock (https://github.com/DanielOgorchock/ST_Anything)  as a guide.
 
 My SmartThings hub and ESP8266 NodeMCU have manually assigned fixed IP addresses.  I assigned then in the router.
-The portion of the Arduino code that turns on/off the LED can be modified to torn on/off any other Arduino controlled switch.
+The portion of the Arduino code that turns on/off the LED can be modified to turn on/off any other Arduino controlled switch.
+
+
 
 I only recently learned about node.js, because I wanted to write an Amazon Alexa skill, so that Alexa would tell me the temperature and humidity inside and outside of my house.
-So to become more familiar with node.js, I tried to write a node.js server node-js server running on my computer, that  simulates the action of the SmartThings App and Hub for the ESP8266 NodeMCU smartswitch.
+So to become more familiar with node.js, I tried to write a node.js server node-js server running on my computer, that simulates the action of the SmartThings App and Hub for the ESP8266 NodeMCU smartswitch.
 If you want to try it, download the folder nodeHubsimulator to your computer.  
 In the file server.js change the line 
 unirest.post('http://192.168.1.60:9070/on??')
