@@ -3,7 +3,7 @@
 //my hub and eSP8266 NodeMCU have manually assigned, fixed IP addresses
 const unsigned int serverPort = 9070; // ESP8266 server port (pick any unused port)
 IPAddress hubIp(192, 168, 1, XXX); // Smartthings hub ip
-const unsigned int hubPort = 30400; //Smartthings hub port (pick any unused port)
+const unsigned int hubPort = 39500; //Smartthings hub port
 
 byte switchstate = 0;  // 0 is off, 1 is on
 WiFiServer server(serverPort);
